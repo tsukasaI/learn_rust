@@ -1,3 +1,6 @@
+mod generics;
+mod lifetime;
+mod ownership;
 mod stack_heap;
 mod vars;
 
@@ -73,4 +76,10 @@ fn main() {
     println!("{}, {}", s1, s2);
 
     stack_heap::run();
+
+    ownership::run();
+
+    generics::run();
+
+    lifetime::run();
 }
