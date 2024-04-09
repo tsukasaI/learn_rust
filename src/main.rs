@@ -9,6 +9,8 @@ mod traits;
 mod unit_test;
 mod vars;
 
+extern crate lib_demo;
+
 const MAX_POINT: u32 = 1000000;
 
 fn main() {
@@ -95,4 +97,6 @@ fn main() {
     traits::run();
 
     errors::run();
+
+    lib_demo::print_random_number();
 }
