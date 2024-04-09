@@ -1,4 +1,5 @@
 mod enums;
+mod errors;
 mod generics;
 mod lifetime;
 mod ownership;
@@ -91,4 +92,6 @@ fn main() {
     enums::run();
 
     traits::run();
+
+    errors::run();
 }
