@@ -1,7 +1,10 @@
+mod enums;
 mod generics;
 mod lifetime;
 mod ownership;
 mod stack_heap;
+mod structs;
+mod traits;
 mod vars;
 
 const MAX_POINT: u32 = 1000000;
@@ -82,4 +85,10 @@ fn main() {
     generics::run();
 
     lifetime::run();
+
+    structs::run();
+
+    enums::run();
+
+    traits::run();
 }
