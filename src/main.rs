@@ -6,6 +6,7 @@ mod ownership;
 mod stack_heap;
 mod structs;
 mod traits;
+mod unit_test;
 mod vars;
 
 const MAX_POINT: u32 = 1000000;
