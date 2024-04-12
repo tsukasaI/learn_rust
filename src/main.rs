@@ -1,3 +1,4 @@
+mod debug;
 mod enums;
 mod errors;
 mod generics;
@@ -99,4 +100,6 @@ fn main() {
     errors::run();
 
     lib_demo::print_random_number();
+
+    debug::run();
 }
